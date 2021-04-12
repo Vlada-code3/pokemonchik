@@ -1,0 +1,14 @@
+.pokemonList{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    } 
+    
+    .pokemonList li {
+    width: calc(100% / 4 - 60px);
+    border: solid 2px black;
+    }
